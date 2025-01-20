@@ -15,7 +15,7 @@ repos:
     rev: dictgen-v0.3.1
     hooks:
       - id: typos
-        type_or: [markdown, quarto, python, pyi, jupyter]
+        type: [markdown, quarto, python, pyi, jupyter]
         exclude: (.devcontainer|.quarto|.venv|.vscode|_site|_freeze|\.lock$)
   - repo: https://github.com/codespell-project/codespell
     rev: v2.3.0

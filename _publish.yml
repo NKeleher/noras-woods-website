@@ -1,4 +1,4 @@
 - source: project
   netlify:
     - id: c64650fd-6b16-47cc-ac8a-038d671acc84
-      url: 'https://noraswoods.info'
+      url: https://noraswoods.info

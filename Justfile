@@ -46,6 +46,9 @@ preview-docs:
 build-docs:
     quarto render
 
+publish:
+    quarto publish netlify
+
 # Lint python code
 lint-py:
     uv run ruff check
